@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'personal/header.html' %}
 
-</body>
-</html>
+{% block content %}
+
+
+    <p>Variables passed:</p>
+
+    <p>Value From Function: {{ fromFunction }}</p>
+
+    {%  for c in content1 %}
+
+       <p>{{ c }}</p>
+
+    {% endfor %}
+
+
+    {% csrf_token %}
+
+{% endblock %}
