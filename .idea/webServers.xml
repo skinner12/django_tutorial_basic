@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="54de53b4-cf97-4c05-bd33-1c6396a63f99" name="ubuntu_django" url="http://10.10.20.17:8000">
-        <fileTransfer host="10.10.20.17" port="22" accessType="SFTP" username="tux">
+        <fileTransfer host="10.10.20.17" port="22" accessType="SFTP" password="dfe7dfcbdfd8dfc6dfc8dfc5dfd8df9adffadf98df92" username="tux">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
