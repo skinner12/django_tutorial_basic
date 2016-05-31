@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^', include('personal.urls')),  #index page
+    url(r'^blog/', include('blog.urls')),  #index page
 ]
